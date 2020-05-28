@@ -1,0 +1,8 @@
+.place__link {
+  color: #FFFFFF;
+  grid-column: 2/3;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
