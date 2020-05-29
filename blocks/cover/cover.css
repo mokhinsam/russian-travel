@@ -4,8 +4,27 @@
 
 .cover {
   max-width: 1184px;
+  width: 100%;
   position: relative;
   margin: 0 auto 92px;
   overflow: hidden;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-bottom: 64px;
+  }
 }
