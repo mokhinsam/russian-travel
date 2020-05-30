@@ -2,3 +2,9 @@
   max-width: 100%;
   grid-column: 1/2;
 }
+
+@media screen and (max-width: 540px) {
+  .place__image {
+    padding-bottom: 32px;
+  }
+}
