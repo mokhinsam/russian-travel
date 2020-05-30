@@ -1,4 +1,4 @@
-# [Обычная ссылка с title](https://mokhinsam.github.io/russian-travel/index.html "Путешествие по России")
+# [Путешествие по России](https://mokhinsam.github.io/russian-travel/index.html)
 
 ### Обзор
 * Описание проекта и его функциональности
