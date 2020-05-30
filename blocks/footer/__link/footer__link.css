@@ -3,22 +3,18 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
-  margin-right: 18px;
   text-decoration: none;
-}
-
-.footer__link_last {
-  margin-right: 0;
 }
 
 .footer__link:hover {
   opacity: .8;
+  transition: opacity .20s ease;
 }
 
-@media screen and (max-width: 320px) {
-.footer__link {
-  font-size: 24px;
-  line-height: 24px;
-  margin-right: 0;
-}
-}
+@media screen and (max-width: 742px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 0;
+  }
+  }

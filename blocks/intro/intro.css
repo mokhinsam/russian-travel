@@ -1,7 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
-@import url(./__list-font-normal/);
+@import url(./__list-font-normal/intro__list-font-normal.css);
 
 .intro {
   max-width: 690px;

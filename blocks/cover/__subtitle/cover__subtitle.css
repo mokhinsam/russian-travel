@@ -8,7 +8,21 @@
   margin: 0 auto auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 612px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .cover__subtitle {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

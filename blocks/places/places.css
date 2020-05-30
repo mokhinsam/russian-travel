@@ -1,19 +1,31 @@
-@import url(./place/place.css);
-
 .places {
   max-width: 984px;
-  margin: 0 auto 92px;
+  padding-left: 148px;
+  padding-right: 148px;
+  margin-bottom: 92px;
 }
+
+
 
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
-    margin: 0 auto 88px;
+    margin-bottom: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .places {
+    padding: 0;
   }
 }
