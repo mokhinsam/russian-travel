@@ -1,8 +1,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
-@import url(./__link/_margin/footer__link_margin.css);
+@import url(./__list-item/footer__list-item.css);
 @import url(./__copyright/footer__copyright.css);
-@import url(./__link-margin/footer__link-margin.css);
 
 .footer {
   max-width: 1184px;
@@ -18,7 +17,7 @@
     margin-left: 48px;
     margin-right: 48px;
   }
-
+}
 
 @media screen and (max-width: 1024px) {
   .footer {
@@ -29,15 +28,11 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .footer {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
+
 
 @media all and (max-width: 742px) {
   .footer {
